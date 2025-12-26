@@ -20,4 +20,7 @@ Na tejto stránke budú zverejnené dokumenty určené pre vlastníkov bytov a v
 
 Príklad:
 
-- [Vzorový dokument](docs/vzorovy.pdf)
+- [Domový poriadok](docs/domovy-poriadok.pdf)
+- [Cenník služieb a poplatkov](docs/cennik.pdf)
+- [Zmluva o výkone správy](docs/zmluva_o_vs2020.pdf)
+- [Zásady hospodárenia](docs/zasady-hospodarenia-VI-2025.pdf)
