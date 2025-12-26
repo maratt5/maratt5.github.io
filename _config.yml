@@ -5,7 +5,15 @@ markdown: kramdown
 collections:
   posts:
     output: true
-paginate: 5
-paginate_path: "/oznamy/strana:num"
+
+# Pagination v2
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/strana:num/'
+  title: ':title - strana :num'
+  sort_field: 'date'
+  sort_reverse: true
+
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
