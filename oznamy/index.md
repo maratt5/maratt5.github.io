@@ -6,8 +6,6 @@ pagination:
   collection: posts
 ---
 
-# Oznamy
-
 Tu nájdete aktuálne oznamy pre vlastníkov bytov.
 
 ---
