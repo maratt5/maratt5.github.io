@@ -6,7 +6,7 @@ pagination:
   collection: posts
 ---
 
-Tu nájdete aktuálne oznamy pre vlastníkov bytov.
+<h3>Tu nájdete aktuálne oznamy pre vlastníkov bytov.</h3>
 
 ---
 
@@ -19,15 +19,19 @@ Tu nájdete aktuálne oznamy pre vlastníkov bytov.
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
-<div style="margin-top:2rem; font-weight:600;">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" style="margin-right:1rem;">← Novšie</a>
-  {% endif %}
+<div class="pagination">
+  <div>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">← Novšie</a>
+    {% endif %}
+  </div>
   
-  <span style="color:#666;">Strana {{ paginator.page }} z {{ paginator.total_pages }}</span>
+  <span>Strana {{ paginator.page }} z {{ paginator.total_pages }}</span>
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" style="margin-left:1rem;">Staršie →</a>
-  {% endif %}
+  <div>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">Staršie →</a>
+    {% endif %}
+  </div>
 </div>
 {% endif %}

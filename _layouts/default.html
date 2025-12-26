@@ -60,10 +60,75 @@
         font-size: 0.9rem;
       }
       
-.oznam {
-  background: #f3e7e4;
-  border-left: 4px solid #a0776a;
-}
+      .oznam {
+        background: #faf8f6;
+        border-left: 4px solid #b68e6a;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 8px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .oznam:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(160, 119, 106, 0.15);
+      }
+
+      .oznam h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.3rem;
+        color: #333;
+      }
+
+      .oznam h3 a {
+        color: #a0776a;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      .oznam h3 a:hover {
+        color: #b68e6a;
+        text-decoration: underline;
+      }
+
+      .oznam p {
+        margin: 0.5rem 0;
+        line-height: 1.6;
+      }
+
+      .oznam em {
+        color: #888;
+        font-size: 0.9rem;
+        font-style: normal;
+      }
+
+      .pagination {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 2px solid #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .pagination a {
+        color: #a0776a;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        transition: background-color 0.2s ease;
+      }
+
+      .pagination a:hover {
+        background-color: #faf8f6;
+      }
+
+      .pagination span {
+        color: #666;
+        font-size: 0.95rem;
+      }
     </style>
   </head>
 
