@@ -5,3 +5,7 @@ markdown: kramdown
 collections:
   posts:
     output: true
+paginate: 5
+paginate_path: "/oznamy/strana:num"
+plugins:
+  - jekyll-paginate
