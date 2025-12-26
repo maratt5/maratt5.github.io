@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <p><em>{{ page.date | date: "%d.%m.%Y" }}</em></p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <p><a href="/oznamy" style="color:#a0776a; font-weight:600;">← Späť na oznamy</a></p>
+</article>
+
+<style>
+.post h1 {
+  margin-top: 0;
+  color: #a0776a;
+}
+
+.post-content {
+  margin-top: 1.5rem;
+  line-height: 1.7;
+}
+</style>
