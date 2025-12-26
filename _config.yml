@@ -2,3 +2,6 @@ title: "SBD Revúca"
 description: "Stavebné bytové družstvo Revúca"
 theme: minima
 markdown: kramdown
+collections:
+  posts:
+    output: true
